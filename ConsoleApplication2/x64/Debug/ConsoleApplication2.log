@@ -1,0 +1,2 @@
+﻿  ConsoleApplication2.cpp
+C:\Multithread_programming\ConsoleApplication2\ConsoleApplication2.cpp(8,26): error C2760: 구문 오류: '...'을(는) 예기치 않은 토큰입니다. 필요한 토큰은 '선언'입니다.

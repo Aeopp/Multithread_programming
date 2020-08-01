@@ -1,0 +1,2 @@
+﻿  shared_mutex.cpp
+C:\Multithread_programming\shared_mutex\shared_mutex.cpp(12,25): error C7518: fold 식에는 '/std:c++17' 이상이 필요합니다.

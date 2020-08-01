@@ -1,0 +1,50 @@
+﻿  async_2.cpp
+C:\Multithread_programming\async_2\async_2.cpp(22,48): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Multithread_programming\async_2\async_2.cpp(75,7): warning C4834: 'nodiscard' 특성이 포함된 함수의 반환 값을 버리는 중
+C:\Multithread_programming\async_2\async_2.cpp(76,7): warning C4834: 'nodiscard' 특성이 포함된 함수의 반환 값을 버리는 중
+C:\Multithread_programming\async_2\async_2.cpp(77,7): warning C4834: 'nodiscard' 특성이 포함된 함수의 반환 값을 버리는 중
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\type_traits(1612,1): warning C4244: '인수': '_Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\type_traits(1612): message : 컴파일되는 함수 템플릿 인스턴스화 'int std::_Invoker_functor::_Call<int(__cdecl *)(const std::vector<int,std::allocator<int>> &,int,int),_Ty,int,unsigned __int64>(_Callable &&,_Ty &&,int &&,unsigned __int64 &&) noexcept(false)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=std::reference_wrapper<const std::vector<int,std::allocator<int>>>,
+              _Callable=int (__cdecl *)(const std::vector<int,std::allocator<int>> &,int,int)
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\mutex(514): message : 컴파일되는 함수 템플릿 인스턴스화 'int std::invoke<int(__cdecl *)(const std::vector<int,std::allocator<int>> &,int,int),std::reference_wrapper<const std::vector<int,std::allocator<int>>>,_Ty1,unsigned __int64>(_Callable &&,std::reference_wrapper<const std::vector<int,std::allocator<int>>> &&,_Ty1 &&,unsigned __int64 &&) noexcept(false)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty1=int,
+              _Callable=int (__cdecl *)(const std::vector<int,std::allocator<int>> &,int,int)
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\mutex(521): message : 컴파일되는 함수 템플릿 인스턴스화 'int std::_Invoke_stored_explicit<int(__cdecl *)(const std::vector<int,std::allocator<int>> &,int,int),std::reference_wrapper<const std::vector<int,std::allocator<int>>>,int,unsigned __int64,0,1,2,3>(std::tuple<int (__cdecl *)(const std::vector<int,std::allocator<int>> &,int,int),std::reference_wrapper<const std::vector<int,std::allocator<int>>>,int,unsigned __int64> &&,std::integer_sequence<size_t,0,1,2,3>)'에 대한 참조를 확인하세요.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\future(1460): message : 컴파일되는 함수 템플릿 인스턴스화 'int std::_Invoke_stored<int(__cdecl *)(const std::vector<int,std::allocator<int>> &,int,int),std::reference_wrapper<const std::vector<int,std::allocator<int>>>,int,unsigned __int64>(std::tuple<int (__cdecl *)(const std::vector<int,std::allocator<int>> &,int,int),std::reference_wrapper<const std::vector<int,std::allocator<int>>>,int,unsigned __int64> &&)'에 대한 참조를 확인하세요.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\future(1460): message : 클래스 템플릿 멤버 함수 'int std::_Fake_no_copy_callable_adapter<_Fty,std::reference_wrapper<const std::vector<int,std::allocator<int>>>,int,unsigned __int64>::operator ()(void)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              _Fty=int (__cdecl &)(const std::vector<int,std::allocator<int>> &,int,int)
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\type_traits(1612): message : 컴파일되는 함수 템플릿 인스턴스화 'int std::_Fake_no_copy_callable_adapter<_Fty,std::reference_wrapper<const std::vector<int,std::allocator<int>>>,int,unsigned __int64>::operator ()(void)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Fty=int (__cdecl &)(const std::vector<int,std::allocator<int>> &,int,int)
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\future(1482): message : 컴파일되는 클래스 템플릿 인스턴스화 'std::_Fake_no_copy_callable_adapter<_Fty,std::reference_wrapper<const std::vector<int,std::allocator<int>>>,int,unsigned __int64>'에 대한 참조를 확인하세요.
+          with
+          [
+              _Fty=int (__cdecl &)(const std::vector<int,std::allocator<int>> &,int,int)
+          ]
+C:\Multithread_programming\async_2\async_2.cpp(20): message : 컴파일되는 함수 템플릿 인스턴스화 'std::future<int> std::async<int(__cdecl &)(const std::vector<int,std::allocator<int>> &,int,int),std::reference_wrapper<const std::vector<int,std::allocator<int>>>,int,unsigned __int64>(std::launch,_Fty,std::reference_wrapper<const std::vector<int,std::allocator<int>>> &&,int &&,unsigned __int64 &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Fty=int (__cdecl &)(const std::vector<int,std::allocator<int>> &,int,int)
+          ]
+  코드를 생성하고 있습니다.
+  0 of 895 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  async_2.vcxproj -> C:\Multithread_programming\ConsoleApplication1\x64\Release\async_2.exe
